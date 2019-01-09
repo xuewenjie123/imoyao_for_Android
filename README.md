@@ -14,7 +14,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.xuyazhong:imoyao_for_Android:Tag'
+    		implementation 'com.github.xuyazhong:imoyao_for_Android:1.0.0'
 	}
 
 
@@ -31,5 +31,5 @@ Step 2. Add the dependency
 	<dependency>
 	    <groupId>com.github.xuyazhong</groupId>
 	    <artifactId>imoyao_for_Android</artifactId>
-	    <version>Tag</version>
+	    <version>1.0.0</version>
 	</dependency>
