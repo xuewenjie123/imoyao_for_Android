@@ -33,12 +33,14 @@ Step 2. Add the dependency
 
 maven集成方式
 Step 1
+
 	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://www.jitpack.io</url>
 		</repository>
 	</repositories>
+	
 Step 2. Add the dependency
 
 	<dependency>
