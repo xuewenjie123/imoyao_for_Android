@@ -16,8 +16,8 @@ import android.widget.RadioGroup
 import android.widget.TextView
 import com.beecredit.moyao.R.id.ssid
 import kotlinx.android.synthetic.main.activity_main.*
-import com.espressif.iot.esptouch.imoyao
-import com.espressif.iot.esptouch.moyaoCallback
+import com.imoyao.lib.imoyao
+import com.imoyao.lib.moyaoCallback
 
 
 class MainActivity : AppCompatActivity() {
