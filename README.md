@@ -1,4 +1,4 @@
-# 配网 
+# 无线配网 
 
 基于 Esptouch 开发，支持 Smart Config 、 Airkiss 配网
 
