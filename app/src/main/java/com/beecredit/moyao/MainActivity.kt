@@ -4,7 +4,6 @@ import android.content.Context
 import android.location.LocationManager
 import android.net.wifi.WifiInfo
 import android.net.wifi.WifiManager
-//import com.imoyao.lib.imoyao
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -18,7 +17,7 @@ import com.beecredit.moyao.R.id.ssid
 import kotlinx.android.synthetic.main.activity_main.*
 import com.imoyao.lib.imoyao
 import com.imoyao.lib.moyaoCallback
-
+import com.imoyao.lib.CRC
 
 class MainActivity : AppCompatActivity() {
 
@@ -43,13 +42,15 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
         if (mConfirmBtn != null) {
             mConfirmBtn.setOnClickListener ({
                 Log.e("begin", "#######")
                 my.Connect(mApPasswd.text.toString(), callback)
             })
         }
+
+        var result = CRC.ccitt("ABCD")
+        Log.e("### ABCD =>", result)
 
     }
 

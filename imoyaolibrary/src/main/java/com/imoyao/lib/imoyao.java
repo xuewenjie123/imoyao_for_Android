@@ -122,7 +122,7 @@ public class imoyao {
     private void invokeSuccessWithResult(String result) {
         if (this.callback != null) {
             this.callback.invoke(true, result);
-//            this.callback = null;
+            this.callback = null;
         }
     }
 
@@ -132,7 +132,7 @@ public class imoyao {
     private void invokeError(String result) {
         if (this.callback != null) {
             this.callback.invoke(false, result);
-//            this.callback = null;
+            this.callback = null;
         }
     }
 
