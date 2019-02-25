@@ -49,3 +49,13 @@ Step 2. Add the dependency
 	    <artifactId>imoyao_for_Android</artifactId>
 	    <version>1.0.1</version>
 	</dependency>
+
+
+
+## Author
+
+xuyazhong, yazhongxu@gmail.com
+
+## License
+
+imoyao is available under the MIT license. See the LICENSE file for more info.
